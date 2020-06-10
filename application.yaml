@@ -1,6 +1,7 @@
 spring:
   datasource:
-    driver-class-name: org.postgresql.Driver
+    # driver-class-name: org.postgresql.Driver
+    driver-class-name: oracle.jdbc.driver.OracleDriver
     initialization-mode: always
     url: jdbc:postgresql://localhost:5432/pet-clinic
     username: prod_user
